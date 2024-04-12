@@ -41,6 +41,7 @@ const Navbar = async (props: Props) => {
           </li>
         </ul>
       </nav>
+      <aside className="flex items-center gap-4"></aside>
     </header>
   );
 };
