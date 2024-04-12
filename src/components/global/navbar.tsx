@@ -18,6 +18,52 @@ const Navbar = async (props: Props) => {
         />
         <p className="text-3xl font-bold">zie</p>
       </aside>
+      <nav className="absolute left-[50%] top-[50%] transform translate-x-[-50%] translate-y-[-50%] hidden md:block">
+        <ul className="flex items-center gap-4 list-none">
+          <li>
+            <link rel="stylesheet" href="">
+              {" "}
+              Products
+            </link>
+          </li>
+          <li>
+            <link rel="stylesheet" href="">
+              {" "}
+              Products
+            </link>
+          </li>
+          <li>
+            <link rel="stylesheet" href="">
+              {" "}
+              Products
+            </link>
+          </li>
+          <li>
+            <link rel="stylesheet" href="">
+              {" "}
+              Products
+            </link>
+          </li>
+          <li>
+            <link rel="stylesheet" href="">
+              {" "}
+              Products
+            </link>
+          </li>
+          <li>
+            <link rel="stylesheet" href="">
+              {" "}
+              Products
+            </link>
+          </li>
+          <li>
+            <link rel="stylesheet" href="">
+              {" "}
+              Products
+            </link>
+          </li>
+        </ul>
+      </nav>
     </header>
   );
 };
