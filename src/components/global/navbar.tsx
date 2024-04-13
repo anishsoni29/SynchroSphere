@@ -2,6 +2,7 @@ import React from "react";
 
 import Image from "next/image";
 import Link from "next/link";
+import { MenuIcon } from "lucide-react";
 
 type Props = {};
 
@@ -60,9 +61,16 @@ const Navbar = async (props: Props) => {
           py-1 text-sm font-medium
           text-white backdrop-blur-3x1"
           >
-            {true ? "Dashboard" : "Get Started"}
+            {
+              //WIP: wire up user
+              true ? "Dashboard" : "Get Started"
+            }
           </span>
         </Link>
+        {
+          //WIP: wire up user --> user button
+        }
+        <MenuIcon className="md:hidden"></MenuIcon>
       </aside>
     </header>
   );
