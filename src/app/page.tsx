@@ -37,6 +37,8 @@ export default function Home() {
         direction="right"
         speed="slow"
       />
+      <section>
+        <HeroParallas products = {products} </section>
     </main>
   );
 }
