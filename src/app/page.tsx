@@ -38,7 +38,8 @@ export default function Home() {
         speed="slow"
       />
       <section>
-        <HeroParallas products = {products} </section>
+        <HeroParallax products={products}></HeroParallax>
+      </section>
     </main>
   );
 }
