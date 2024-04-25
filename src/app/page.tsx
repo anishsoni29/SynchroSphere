@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { clients, products } from "@/lib/constant";
 import { InfiniteMovingCards } from "@/components/global/infinite-moving-cards";
 import { HeroParallax } from "@/components/global/connect-parallax";
+import { LampComponent } from "@/components/global/lamp";
 
 export default function Home() {
   return (
