@@ -44,7 +44,7 @@ export default function Home() {
       </section>
       <section className="mt-[-500px]">
         <LampComponent />
-        <div></div>
+        <div className="flex flex-wrap items-center justify-center flex-col md:flex-row gap-8"></div>
       </section>
     </main>
   );
