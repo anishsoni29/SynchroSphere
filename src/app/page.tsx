@@ -44,6 +44,7 @@ export default function Home() {
       </section>
       <section className="mt-[-500px]">
         <LampComponent />
+        <div></div>
       </section>
     </main>
   );
