@@ -9,6 +9,7 @@ import { LampComponent } from "@/components/global/lamp";
 import { CardContainer } from "@/components/global/3d-card";
 import { CardBody } from "@/components/global/3d-card";
 import { CardItem } from "@/components/global/3d-card";
+import { CheckIcon } from "lucide-react";
 
 export default function Home() {
   return (
@@ -56,6 +57,24 @@ export default function Home() {
             >
               Hobby
               <h2 className="text-6xl "> $0</h2>
+            </CardItem>
+            <CardItem
+              translateZ="60"
+              className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+            >
+              Get a glimpse of what our software is capable of. Just a heads up{" "}
+              {"you'll"} never leave us after this!
+              <ul className="my-4 flex flex-col gap-2">
+                <li className="flex items-center gap-2">
+                  <CheckIcon /> 3 Free Automations
+                </li>
+                <li className="flex items-center gap-2">
+                  <CheckIcon /> 100 tasks per month
+                </li>
+                <li className="flex items-center gap-2">
+                  <CheckIcon /> Two-step Actions
+                </li>
+              </ul>
             </CardItem>
           </CardBody>
         </CardContainer>
