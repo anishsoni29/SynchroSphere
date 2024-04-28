@@ -6,6 +6,7 @@ import { clients, products } from "@/lib/constant";
 import { InfiniteMovingCards } from "@/components/global/infinite-moving-cards";
 import { HeroParallax } from "@/components/global/connect-parallax";
 import { LampComponent } from "@/components/global/lamp";
+import { CardContainer } from "@/components/global/3d-card";
 
 export default function Home() {
   return (
@@ -45,6 +46,7 @@ export default function Home() {
       <section className="mt-[-500px]">
         <LampComponent />
         <div className="flex flex-wrap items-center justify-center flex-col md:flex-row gap-8 -mt-72"></div>
+        <CardContainer className="inter-var"></CardContainer>
       </section>
     </main>
   );
