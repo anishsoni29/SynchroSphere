@@ -97,7 +97,7 @@ export default function Home() {
           </CardBody>
         </CardContainer>
         <CardContainer className="inter-var">
-          <CardBody className="bg-gray-50 relative group/card dark: hover: shadow-2xl dark:hover:shadow-neutral-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-full md:!w-[350px] h-auto rounded-xl p-6 border">
+          <CardBody className="bg-gray-50 relative group/card dark: hover: shadow-2xl dark:hover:shadow-neutral-500/[0.1] dark:bg-black dark:border-[#E2CBFF] border-black/[0.1] w-full md:!w-[350px] h-auto rounded-xl p-6 border">
             <CardItem
               translateZ="50"
               className="text-xl font-bold text-neutral-600 dark:text-white"
@@ -150,7 +150,7 @@ export default function Home() {
               className="text-xl font-bold text-neutral-600 dark:text-white"
             >
               Unlimited
-              <h2 className="text-6xl "> $999</h2>
+              <h2 className="text-6xl "> $99</h2>
             </CardItem>
             <CardItem
               translateZ="60"
