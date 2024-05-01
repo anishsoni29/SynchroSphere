@@ -11,4 +11,4 @@ const Layout = (props: Props) => {
   );
 };
 
-// export default Layout;
+export default Layout;
