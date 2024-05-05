@@ -10,6 +10,7 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip";
 import { menuOptions } from "@/lib/constant";
+import clsx from "clsx";
 
 type Props = {};
 
@@ -22,8 +23,29 @@ const MenuOptions = (props: Props) => {
           fuzzie.
         </Link>
         <TooltipProvider>
-          {menuOptions.map(() => (
-            <div></div>
+          {menuOptions.map((menuItem) => (
+            <ul key={menuItem.name}>
+              <Tooltip delayDuration={0}>
+                <TooltipTrigger>
+                  <li>
+                    <Link
+                      href={menuItem.href}
+                      className={clsx(
+                        "group h-8 w-8 flex items-center justify-center scale-[1.5] rounded-lg p-[3px] cursor-pointer",
+                        {
+                          "dark : bg-[#2F006B] bg-[#EEE0FF]":
+                            pathName === menuItem.href,
+                        }
+                      )}
+                    >
+                      <menuItem.Component
+                        selected={pathName === menuItem.href}
+                      />
+                    </Link>
+                  </li>
+                </TooltipTrigger>
+              </Tooltip>
+            </ul>
           ))}
         </TooltipProvider>
       </div>
