@@ -3,6 +3,12 @@
 import { Link } from "lucide-react";
 import { usePathname } from "next/navigation";
 import React from "react";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 
 type Props = {};
 
@@ -14,6 +20,11 @@ const MenuOptions = (props: Props) => {
         <Link className="flex font-bold flex-row" href="/">
           fuzzie.
         </Link>
+        <TooltipProvider>
+          {menuOptions.map(() => (
+            <div></div>
+          ))}
+        </TooltipProvider>
       </div>
     </nav>
   );
