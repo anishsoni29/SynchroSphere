@@ -1,6 +1,6 @@
 "use client";
 
-import { Link } from "lucide-react";
+import { Link, LucideMousePointerClick } from "lucide-react";
 import { usePathname } from "next/navigation";
 import React from "react";
 import {
@@ -56,6 +56,11 @@ const MenuOptions = (props: Props) => {
           ))}
         </TooltipProvider>
         <Separator />
+        <div className="flex items-center flex-col gap-9 dark:bg-[#353346]/30 py-4 rounded-full h-56 overflow-scroll border-[1px]">
+          <div className="relative dark: bg-[#353346]/70 p-2 rounded-full dark:border-t-[2px] border-[1px] dark:border-t-[#353346]">
+            <LucideMousePointerClick className="dark : text-white" size={18} />
+          </div>
+        </div>
       </div>
     </nav>
   );
