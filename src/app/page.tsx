@@ -61,8 +61,8 @@ export default function Home() {
                 translateZ="60"
                 className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
               >
-                Get a glimpse of what our software is capable of. Just a heads
-                up {"you'll"} never leave us after this!
+                Get a of what our software is capable of. Just a heads up{" "}
+                {"you'll"} never leave us after this!
                 <ul className="my-4 flex flex-col gap-2">
                   <li className="flex items-center gap-2">
                     <CheckIcon />3 Free automations
